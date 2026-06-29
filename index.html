@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Луна — спутник Земли</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stars" id="stars"></div>
+
+  <main class="deck" id="deck">
+
+    <!-- Slide 1: Title -->
+    <section class="slide slide--title is-active" data-slide="0">
+      <div class="moon-hero" aria-hidden="true">
+        <div class="moon-hero__disc"></div>
+      </div>
+      <h1>Луна</h1>
+      <p class="subtitle">Единственный естественный спутник Земли</p>
+      <p class="hint">Используйте стрелки ← → или пробел для навигации</p>
+    </section>
+
+    <!-- Slide 2: Intro -->
+    <section class="slide" data-slide="1">
+      <h2>Что такое Луна?</h2>
+      <ul class="bullets">
+        <li>Луна — единственный естественный спутник Земли и пятый по величине спутник в Солнечной системе.</li>
+        <li>Это ближайшее к нам космическое тело и единственное, на котором побывал человек.</li>
+        <li>Луна влияет на жизнь Земли: вызывает приливы и отливы, стабилизирует наклон земной оси.</li>
+        <li>Она всегда повёрнута к Земле одной стороной — это называется приливным захватом.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 3: Key facts -->
+    <section class="slide" data-slide="2">
+      <h2>Ключевые факты</h2>
+      <div class="facts">
+        <div class="fact">
+          <div class="fact__value">3 474 км</div>
+          <div class="fact__label">Диаметр (≈¼ земного)</div>
+        </div>
+        <div class="fact">
+          <div class="fact__value">384 400 км</div>
+          <div class="fact__label">Среднее расстояние до Земли</div>
+        </div>
+        <div class="fact">
+          <div class="fact__value">27,3 суток</div>
+          <div class="fact__label">Период обращения вокруг Земли</div>
+        </div>
+        <div class="fact">
+          <div class="fact__value">1/6 g</div>
+          <div class="fact__label">Сила тяжести от земной</div>
+        </div>
+        <div class="fact">
+          <div class="fact__value">−173…+127 °C</div>
+          <div class="fact__label">Перепад температур</div>
+        </div>
+        <div class="fact">
+          <div class="fact__value">4,5 млрд лет</div>
+          <div class="fact__label">Возраст</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: Origin -->
+    <section class="slide" data-slide="3">
+      <h2>Происхождение Луны</h2>
+      <ul class="bullets">
+        <li><strong>Гипотеза гигантского столкновения.</strong> Около 4,5 млрд лет назад в молодую Землю врезалось тело размером с Марс — Тейя.</li>
+        <li>Из выброшенных обломков и пыли на околоземной орбите сформировалась Луна.</li>
+        <li>Эта теория объясняет схожий состав пород Земли и Луны, а также большой размер спутника.</li>
+        <li>Существуют и другие гипотезы (захват, совместное образование), но столкновение — основная.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 5: Structure -->
+    <section class="slide" data-slide="4">
+      <h2>Строение Луны</h2>
+      <ul class="bullets">
+        <li><strong>Кора</strong> — внешний твёрдый слой толщиной около 50 км.</li>
+        <li><strong>Мантия</strong> — основная часть объёма, богатая силикатами.</li>
+        <li><strong>Ядро</strong> — небольшое, частично расплавленное, радиусом около 350 км.</li>
+        <li>Поверхность покрыта реголитом — слоем пыли и обломков от метеоритных ударов.</li>
+        <li>Тёмные «моря» — застывшая лава, светлые области — древние горные материки.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 6: Phases -->
+    <section class="slide" data-slide="5">
+      <h2>Фазы Луны</h2>
+      <p class="lead">Полный цикл смены фаз — синодический месяц, около 29,5 суток.</p>
+      <div class="phases">
+        <div class="phase"><span class="phase__icon phase__new"></span>Новолуние</div>
+        <div class="phase"><span class="phase__icon phase__waxcres"></span>Растущий серп</div>
+        <div class="phase"><span class="phase__icon phase__firstq"></span>Первая четверть</div>
+        <div class="phase"><span class="phase__icon phase__full"></span>Полнолуние</div>
+        <div class="phase"><span class="phase__icon phase__lastq"></span>Последняя четверть</div>
+        <div class="phase"><span class="phase__icon phase__wancres"></span>Убывающий серп</div>
+      </div>
+    </section>
+
+    <!-- Slide 7: Influence -->
+    <section class="slide" data-slide="6">
+      <h2>Влияние на Землю</h2>
+      <ul class="bullets">
+        <li><strong>Приливы и отливы.</strong> Притяжение Луны поднимает уровень океанов дважды в сутки.</li>
+        <li><strong>Стабилизация оси.</strong> Луна удерживает наклон земной оси, делая климат устойчивым.</li>
+        <li><strong>Замедление вращения.</strong> Из-за приливного трения сутки на Земле постепенно удлиняются.</li>
+        <li><strong>Удаление.</strong> Луна отдаляется от Земли примерно на 3,8 см в год.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 8: Exploration -->
+    <section class="slide" data-slide="7">
+      <h2>Исследование Луны</h2>
+      <ul class="timeline">
+        <li><span class="timeline__year">1959</span> «Луна-2» — первый аппарат, достигший поверхности Луны.</li>
+        <li><span class="timeline__year">1966</span> «Луна-9» — первая мягкая посадка.</li>
+        <li><span class="timeline__year">1969</span> «Аполлон-11» — первые люди на Луне: Армстронг и Олдрин.</li>
+        <li><span class="timeline__year">1970</span> «Луноход-1» — первый планетоход на другом небесном теле.</li>
+        <li><span class="timeline__year">2020-е</span> Новая лунная гонка: программа «Артемида», миссии Китая и Индии.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 9: Fun facts -->
+    <section class="slide" data-slide="8">
+      <h2>Интересные факты</h2>
+      <ul class="bullets">
+        <li>На Луне нет атмосферы, поэтому небо там всегда чёрное, а звук не распространяется.</li>
+        <li>Следы астронавтов могут сохраняться миллионы лет — их некому стереть.</li>
+        <li>С Земли видно всегда около 59% поверхности Луны.</li>
+        <li>Свет от Луны доходит до Земли примерно за 1,3 секунды.</li>
+        <li>Полное лунное затмение окрашивает Луну в красный цвет — «кровавая Луна».</li>
+      </ul>
+    </section>
+
+    <!-- Slide 10: Conclusion -->
+    <section class="slide slide--end" data-slide="9">
+      <div class="moon-hero moon-hero--small" aria-hidden="true">
+        <div class="moon-hero__disc"></div>
+      </div>
+      <h2>Спасибо за внимание!</h2>
+      <p class="subtitle">Луна — наш ближайший космический сосед и ключ к пониманию Солнечной системы.</p>
+    </section>
+
+  </main>
+
+  <div class="progress" id="progress"><div class="progress__bar" id="progressBar"></div></div>
+
+  <nav class="controls" aria-label="Навигация по слайдам">
+    <button class="btn" id="prevBtn" aria-label="Предыдущий слайд">‹</button>
+    <span class="counter"><span id="current">1</span> / <span id="total">10</span></span>
+    <button class="btn" id="nextBtn" aria-label="Следующий слайд">›</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
