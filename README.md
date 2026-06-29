@@ -39,3 +39,12 @@ python3 -m http.server 8000
 - `index.html` — структура и контент слайдов
 - `styles.css` — оформление (космическая тема, анимации)
 - `script.js` — навигация, прогресс-бар, звёздное небо
+
+# Сборка .pptx
+
+```bash
+pip install python-pptx
+python3 build_pptx.py   # создаст luna.pptx
+```
+
+Готовый файл: `luna.pptx` (10 слайдов, 16:9).
